@@ -1,0 +1,7241 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e37efeb6-6d5d-43d8-884b-d5ed446dd847")
+	(paper "User" 309.88 203.2)
+	(lib_symbols
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "SEG4"
+		(shape input)
+		(at 25.4 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d592c8f-db5f-46be-8ecd-2a0e35cd6c57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG6"
+		(shape input)
+		(at 25.4 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c6aa089-2351-4a30-ae46-4420880e3745")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG3"
+		(shape input)
+		(at 25.4 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "386c1768-8812-43ba-b4f2-c62fc18fe995")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG3"
+		(shape input)
+		(at 287.02 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f25e7a4-b353-449f-9894-bb7a5b5d7bae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.8432 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG2"
+		(shape input)
+		(at 25.4 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45257aeb-3095-4261-8c9d-6d0595fdbdc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG1"
+		(shape input)
+		(at 24.13 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51035c34-0b2e-431c-886a-08f11e67b7ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.3068 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG1"
+		(shape input)
+		(at 66.04 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6907c235-902b-49b1-a0ed-d0ee2eac87fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8632 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG4"
+		(shape input)
+		(at 287.02 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "726fd1a8-30d5-4930-9a9d-f115afb1bfc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.8432 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG2"
+		(shape input)
+		(at 285.75 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9428f780-c330-42bc-90f7-f9d49c60126b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.5732 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG5"
+		(shape input)
+		(at 287.02 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0ec1443-8407-4c05-ba68-127004c08415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.8432 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG6"
+		(shape input)
+		(at 287.02 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbba9167-c205-4279-bf08-6306742e0916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.8432 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEG5"
+		(shape input)
+		(at 25.4 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f904fa15-a1ad-463f-b222-eb17f98ef21b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5768 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 223.52 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0515ee97-9a6a-4dee-bfed-a18800c4ea47")
+		(property "Reference" "D53"
+			(at 232.664 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 232.918 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c6b62bda-2fcc-4039-be9e-0d16ce41514c")
+		)
+		(pin "2"
+			(uuid "fca209ad-6eb4-411d-ab60-bb0a5b66b5a7")
+		)
+		(pin "1"
+			(uuid "febaf569-a45a-4a98-a03e-4d52c790e81e")
+		)
+		(pin "4"
+			(uuid "d24f1c06-6815-44c4-bd27-8e3b24ef81c4")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 90.17 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06399bfa-060e-46ef-9c1c-3ed6ce27c252")
+		(property "Reference" "D46"
+			(at 99.314 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.568 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 91.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d9df22ea-1fba-44c5-b964-23f4d1267917")
+		)
+		(pin "2"
+			(uuid "762be1cc-875f-4c6e-844f-9b3a1acbc654")
+		)
+		(pin "1"
+			(uuid "c17c9e86-fb8d-4417-8d7f-2050959ae525")
+		)
+		(pin "4"
+			(uuid "d1604b86-04d2-4e00-baa4-c8290f6cdd55")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 128.27 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e058ca3-0379-4005-a639-ce4f25fa1b05")
+		(property "Reference" "D20"
+			(at 137.414 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.668 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 130.81 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8cd3a01-25fe-42c5-a636-1511eb5fbc87")
+		)
+		(pin "2"
+			(uuid "7679854f-bcd6-4c3d-8460-8bdf9272ec0d")
+		)
+		(pin "1"
+			(uuid "ad132d7f-22b7-48bd-9628-a46fbce80bd2")
+		)
+		(pin "4"
+			(uuid "55f3dce3-c0e2-4283-a66a-4d8bcf06507d")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 165.1 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e85d6d3-f772-45d5-8c4f-9b4beea1e9a8")
+		(property "Reference" "D8"
+			(at 174.244 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 174.498 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 167.64 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90119448-f0fb-49eb-8804-91fd1eeb202c")
+		)
+		(pin "2"
+			(uuid "975f19ae-6bef-40b7-8874-95031e13acf6")
+		)
+		(pin "1"
+			(uuid "f52ef763-59c5-4cda-8f9f-61a4c0f64af8")
+		)
+		(pin "4"
+			(uuid "b27bad7b-5e56-4806-9c60-6a912d7c4c34")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.12 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eadde00-a348-44a3-8182-94cd16509a8f")
+		(property "Reference" "D45"
+			(at 80.264 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 80.518 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 73.66 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6f2ccfc8-61ad-4928-8843-8e13fabbf97c")
+		)
+		(pin "2"
+			(uuid "8b3d2f4f-f0f4-463f-aae7-01003e63cc5c")
+		)
+		(pin "1"
+			(uuid "7f6f250b-92eb-44f0-8a46-a7e24dab868e")
+		)
+		(pin "4"
+			(uuid "8fff4e58-65dc-4823-902d-82f348d1bf3b")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 185.42 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f94a3d1-62e4-4b95-ae14-79e0fb296331")
+		(property "Reference" "D79"
+			(at 194.564 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 194.818 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 187.96 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5588655c-6132-48df-bfc1-952293d3d565")
+		)
+		(pin "2"
+			(uuid "456a8c1b-b452-4851-a670-22f93697e6a8")
+		)
+		(pin "1"
+			(uuid "9d1e4483-3a01-4026-a735-5d8f86a2be54")
+		)
+		(pin "4"
+			(uuid "e9a29075-f339-4488-aed2-cce15d100c8d")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 33.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d7b2e4-b75f-4f86-8e28-39a7489e51e1")
+		(property "Reference" "D29"
+			(at 42.164 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 42.418 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 35.56 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d7f875c6-4d59-4f0f-9938-b171f46ad606")
+		)
+		(pin "2"
+			(uuid "c9c0a022-a4f1-4257-91e2-f2e8858a3fc5")
+		)
+		(pin "1"
+			(uuid "8390820b-f5f7-43d5-9445-dec72fbdfc6d")
+		)
+		(pin "4"
+			(uuid "fe530979-f5cb-4114-b3bc-5b18269de301")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 109.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17754abb-a253-4581-8885-a63083787850")
+		(property "Reference" "D19"
+			(at 118.364 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 118.618 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 111.76 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6b002947-1a02-48a3-ad79-39fb3025ccd7")
+		)
+		(pin "2"
+			(uuid "666392fc-a146-42a5-9edc-183988b63801")
+		)
+		(pin "1"
+			(uuid "2d12363f-6e33-4a0b-b96f-5c3041e83488")
+		)
+		(pin "4"
+			(uuid "089ba4aa-3ff7-442a-be76-ff64ab502d1e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 242.57 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2469b7c7-aa6d-481b-a50c-e1e2fb63c2f1")
+		(property "Reference" "D82"
+			(at 251.714 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 251.968 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 245.11 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "885525f7-d295-4246-aea8-2bdb217de07e")
+		)
+		(pin "2"
+			(uuid "01355ae9-8b8d-4916-b450-8692485885e4")
+		)
+		(pin "1"
+			(uuid "d3171292-0a01-4ca4-aafa-6acd8620778a")
+		)
+		(pin "4"
+			(uuid "08fabd53-9b77-44d1-a6ca-6f9c95a3b184")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 223.52 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27317451-937a-43a5-8492-6ffc1a77bb8d")
+		(property "Reference" "D39"
+			(at 232.664 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 232.918 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba59eb93-1a84-466f-9b93-2953dd25012b")
+		)
+		(pin "2"
+			(uuid "cdd6deef-6689-4003-ad50-547f9919d333")
+		)
+		(pin "1"
+			(uuid "bcbf6b34-a489-4763-90cf-dba1f79330d2")
+		)
+		(pin "4"
+			(uuid "298b4e23-2054-4263-9e10-1c53be7d917b")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.12 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fbe3f09-42c2-49ef-bcfe-7b2833e0016b")
+		(property "Reference" "D59"
+			(at 80.264 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 80.518 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 73.66 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d2049320-464b-47d1-a2e0-47cc1142bcb9")
+		)
+		(pin "2"
+			(uuid "c92fd80f-e936-4097-adc2-11b971a56508")
+		)
+		(pin "1"
+			(uuid "8567345e-5818-4216-af8e-a1e41381e30a")
+		)
+		(pin "4"
+			(uuid "285cefb9-0a4f-4938-86e9-c169d71ad815")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30f08c5c-6552-43b9-adf4-5b4dc48785fb")
+		(property "Reference" "D10"
+			(at 212.344 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 212.598 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 204.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 205.74 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6fd292c-75a4-4b17-9a44-85c949605a33")
+		)
+		(pin "2"
+			(uuid "f42a3f58-954c-4514-9885-93cf2e9c1133")
+		)
+		(pin "1"
+			(uuid "fc16b32e-8169-4869-b931-b920c456a64a")
+		)
+		(pin "4"
+			(uuid "297a6a6d-8f4b-4787-9804-87086db1d472")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 109.22 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "312e07f8-6e39-4320-843d-5cd7d086f36b")
+		(property "Reference" "D75"
+			(at 118.364 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 118.618 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 110.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 111.76 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0cd3f947-aa28-4422-8843-2425081ce671")
+		)
+		(pin "2"
+			(uuid "769baf4b-d00d-4734-a689-90f5c895e13a")
+		)
+		(pin "1"
+			(uuid "84df8376-c7b1-4c8a-a3a6-f867b9558d4a")
+		)
+		(pin "4"
+			(uuid "599d35a2-762b-4507-a5e8-d74aa8f48f99")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 223.52 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3194edcd-280a-40a3-ab4e-ce5ae12240ba")
+		(property "Reference" "D67"
+			(at 232.664 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 232.918 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 224.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d43e8492-1b4e-424c-9d52-7afcbc948625")
+		)
+		(pin "2"
+			(uuid "85024938-3963-4491-bfe0-ff3407d3e475")
+		)
+		(pin "1"
+			(uuid "dd6b5f6b-fbf3-4523-8419-a69e0166b17e")
+		)
+		(pin "4"
+			(uuid "e2bb140c-aa94-4f1c-8324-0061d19c3e9e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 204.47 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31aefc87-29f9-4edc-a671-54e36bb12fd9")
+		(property "Reference" "D80"
+			(at 213.614 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 207.01 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52ca3805-15fe-4075-bc93-d08c11083416")
+		)
+		(pin "2"
+			(uuid "0ae44612-b4a4-4d4e-ad60-9a7b40573b0a")
+		)
+		(pin "1"
+			(uuid "9ed32189-cfaf-4aaf-88db-2b57e3850835")
+		)
+		(pin "4"
+			(uuid "d784a4b9-e9d2-4e62-a710-2e105822dbd9")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 185.42 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "339fe557-6739-47a2-ab13-f9122da75a18")
+		(property "Reference" "D65"
+			(at 194.564 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 194.818 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 187.96 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd70fc70-e235-4654-9933-b34734e977d4")
+		)
+		(pin "2"
+			(uuid "5f74e424-0a9b-4697-a1ff-b99d03b30ace")
+		)
+		(pin "1"
+			(uuid "7166a504-fdd2-43a0-b13c-f063d56ff8fa")
+		)
+		(pin "4"
+			(uuid "5a05a1dd-ca52-458c-b0aa-57c5a25caa3e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 261.62 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33da9b73-97cf-42e2-aec1-836285a2d7b7")
+		(property "Reference" "D83"
+			(at 270.764 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 271.018 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 264.16 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cae4a2bf-a237-44c2-9cc2-12f4c5839780")
+		)
+		(pin "2"
+			(uuid "a8b942ed-dd2e-4bc2-9ba3-1bc408145b73")
+		)
+		(pin "1"
+			(uuid "1b693bdb-7f6d-46e9-9ae0-73d5606b77e2")
+		)
+		(pin "4"
+			(uuid "00c15ec1-434b-4dae-b82d-3c17d251a125")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 33.02 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37533205-878d-42dc-b391-1d21dc4917fb")
+		(property "Reference" "D71"
+			(at 42.164 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 42.418 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 35.56 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 33.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4b8576d-976a-44e8-8cc3-24d1c0ea67c0")
+		)
+		(pin "2"
+			(uuid "4ada4e86-5a83-4fb6-8a1a-f86ab94ed618")
+		)
+		(pin "1"
+			(uuid "9c9f3112-9dc8-4891-8b53-7821843fa83b")
+		)
+		(pin "4"
+			(uuid "6ea2b3be-f6f4-4319-b436-03a1e572091a")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 279.4 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37d6f330-a450-4efc-9c8c-00c0e0f4d661")
+		(property "Reference" "D28"
+			(at 288.544 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 288.798 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 281.94 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 279.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78ea7ee6-d22b-4768-b6f5-760f7f1a5dac")
+		)
+		(pin "2"
+			(uuid "c65cfcd5-e2f5-41fc-9c18-617cabd2320e")
+		)
+		(pin "1"
+			(uuid "82232f50-3700-48ca-bd68-14a63f569995")
+		)
+		(pin "4"
+			(uuid "de5c3eb9-f145-4561-9a9c-b18b9e965daf")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 242.57 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c1e2bdb-92b1-4474-b70b-5dc73282fc7f")
+		(property "Reference" "D54"
+			(at 251.714 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 251.968 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 245.11 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 242.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2d90e26-f945-437c-be8d-a4a60671181e")
+		)
+		(pin "2"
+			(uuid "b3722ae9-5f47-423e-a86b-e563fceb1110")
+		)
+		(pin "1"
+			(uuid "bd324631-2049-4b3b-9d48-f206a91d3483")
+		)
+		(pin "4"
+			(uuid "5fb91c94-8a04-4caa-a0f7-76030d60aa55")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 242.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45684c63-13b7-459c-9242-4372109f5b82")
+		(property "Reference" "D68"
+			(at 251.714 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 251.968 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 245.11 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d083ef7-2fc9-430e-8bb1-905d5d458197")
+		)
+		(pin "2"
+			(uuid "6d241c1b-6504-426d-90e4-0104d4364b33")
+		)
+		(pin "1"
+			(uuid "9cfe604c-4f4a-4a74-99e4-6dc2adf3372e")
+		)
+		(pin "4"
+			(uuid "20ad4665-5ced-4a6f-a9c6-c0e45de59a3f")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 241.3 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "469e301c-7fc5-4a2d-8142-8e55c1ccc7ed")
+		(property "Reference" "D12"
+			(at 250.444 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 250.698 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 243.84 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "faa609d2-3ccf-4c0a-9750-5158fbfa232e")
+		)
+		(pin "2"
+			(uuid "98536e84-b218-4d24-abbc-03bcbe0f2eae")
+		)
+		(pin "1"
+			(uuid "a4616d9e-98bf-427c-a2ac-95ec15e933dd")
+		)
+		(pin "4"
+			(uuid "d1158f67-3df6-4da1-8713-d5295c514a7e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 222.25 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4818fec8-64ad-4285-84c7-4da1d497d4bc")
+		(property "Reference" "D11"
+			(at 231.394 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 231.648 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 224.79 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 222.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6a0359c9-123e-4b2c-aa86-73ce874ae49f")
+		)
+		(pin "2"
+			(uuid "7e745127-5145-4917-a428-72705f012a12")
+		)
+		(pin "1"
+			(uuid "2fc4557a-092e-40ec-956c-e1aca1882d93")
+		)
+		(pin "4"
+			(uuid "611662d3-0521-47ef-a75e-420773d3d790")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 60.96 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b16cb01-a820-426c-b5f6-858d66a387da")
+		(property "Reference" "J1"
+			(at 61.595 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 61.595 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7707af86-8765-4d6e-80b6-65a94711d06e")
+		)
+		(pin "1"
+			(uuid "c7994c2f-4274-431c-9d9c-f248145b5f0d")
+		)
+		(pin "2"
+			(uuid "b9d26ea3-d5d5-4f71-bd7a-730533f72c33")
+		)
+		(pin "6"
+			(uuid "04dee2c5-db6f-43ff-b86f-842fae0661d4")
+		)
+		(pin "3"
+			(uuid "fd71d935-b2c4-4826-9c2b-ecfcc6714002")
+		)
+		(pin "5"
+			(uuid "b5ff0320-4007-44b0-9af7-78b3a199012b")
+		)
+		(instances
+			(project ""
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 31.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b599c80-961d-4431-a51e-2b04803c3ba6")
+		(property "Reference" "D1"
+			(at 40.894 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 41.148 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 34.29 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eca39eb5-b300-4cfc-a94a-93b581c8c20f")
+		)
+		(pin "2"
+			(uuid "953463c0-4886-4925-8f2c-7a0e0ddfb8dc")
+		)
+		(pin "1"
+			(uuid "b1e650e2-6bf3-4e7a-9639-f6253e1b9ebe")
+		)
+		(pin "4"
+			(uuid "447f00ee-0fb4-4826-a75c-85702ba2dcaa")
+		)
+		(instances
+			(project ""
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 88.9 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc90c12-0422-4139-8e21-ce0c5cc57fd2")
+		(property "Reference" "D4"
+			(at 98.044 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 98.298 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 91.44 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d2e8a0e-42da-42e2-80e1-79da762f6c32")
+		)
+		(pin "2"
+			(uuid "05e611d2-65cd-4c0e-b8f3-adf23864553a")
+		)
+		(pin "1"
+			(uuid "51234632-a259-442b-afb2-cda7fa3752fd")
+		)
+		(pin "4"
+			(uuid "0ed16d29-0f11-4784-9bc2-c92a95fc50d3")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 166.37 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50653f51-c7e5-44c0-9dfc-c66ad9754a56")
+		(property "Reference" "D36"
+			(at 175.514 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 175.768 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 168.91 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "18f70fd7-af75-422a-84b9-1a984b9edbd0")
+		)
+		(pin "2"
+			(uuid "3f70754b-5dd1-4093-b335-f2f8e2aaf5db")
+		)
+		(pin "1"
+			(uuid "128dfce0-a0f6-4ec3-8aad-5b80e5e271d0")
+		)
+		(pin "4"
+			(uuid "d964e091-f536-4508-a085-1d0f4834a470")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 261.62 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f63518-a987-41bc-9bce-b7e55266e5f5")
+		(property "Reference" "D41"
+			(at 270.764 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 271.018 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 264.16 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 261.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ad897c5-b872-400a-a0a3-18e5268aae75")
+		)
+		(pin "2"
+			(uuid "8c06bfb1-aa17-4553-a85a-924c0872da64")
+		)
+		(pin "1"
+			(uuid "4401b9de-f8ee-4abe-b885-bc3697e5e992")
+		)
+		(pin "4"
+			(uuid "718f0946-acae-4d53-a55e-6b2fb37fab33")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 204.47 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5222cb67-09ad-468d-9979-d139571e5efa")
+		(property "Reference" "D24"
+			(at 213.614 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 207.01 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "50322007-fe0d-4152-b192-beae2a7a59a8")
+		)
+		(pin "2"
+			(uuid "40fe4970-8492-4d5b-a6d8-605846732952")
+		)
+		(pin "1"
+			(uuid "ab3a80cd-b082-41dd-8a45-191fced1da49")
+		)
+		(pin "4"
+			(uuid "d1ae2af6-9da5-4e97-9127-3c317cbee6ce")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 33.02 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5228dbba-57b7-41bb-b18d-f686787eed62")
+		(property "Reference" "D57"
+			(at 42.164 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 42.418 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 35.56 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "929b2ed4-c94b-4e6a-91a3-86af5882ca61")
+		)
+		(pin "2"
+			(uuid "d51db425-f94f-44cd-b4f6-0cd4af880044")
+		)
+		(pin "1"
+			(uuid "d35442dc-4af1-48e8-a69a-b6cc37acd71b")
+		)
+		(pin "4"
+			(uuid "cb4a63ca-2483-497c-93dc-7d0f378915bc")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 279.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "559563de-10d4-4882-b2be-d327ee631878")
+		(property "Reference" "D42"
+			(at 288.544 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 288.798 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 280.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 281.94 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 279.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "23a756c0-534e-4c5e-8cb9-92a581a75578")
+		)
+		(pin "2"
+			(uuid "5b449b4c-f9b5-4353-bcfd-1e52271cd6a5")
+		)
+		(pin "1"
+			(uuid "b76d0512-e974-4b33-a4fc-7199ecc332a1")
+		)
+		(pin "4"
+			(uuid "9cda3b04-1816-4bf9-8277-4f9f9227f038")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 90.17 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56f7fcb5-5ead-4c37-8b19-a57de06e302b")
+		(property "Reference" "D60"
+			(at 99.314 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.568 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 91.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17412551-7f76-415d-ae34-ae857d6ee304")
+		)
+		(pin "2"
+			(uuid "8a30b509-e6b1-4f14-803f-8969e5788e13")
+		)
+		(pin "1"
+			(uuid "872933ab-3d60-4391-aa5d-16d5e87d8a2b")
+		)
+		(pin "4"
+			(uuid "3fc2f766-1cb4-4415-a99f-d3b5095ab90b")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 204.47 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0d741d-7a26-459b-b914-1c8e17e53900")
+		(property "Reference" "D66"
+			(at 213.614 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 207.01 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d247e7d3-00fc-43d1-9e18-1b8a655c8a3d")
+		)
+		(pin "2"
+			(uuid "a5b1065f-59a4-4541-bfdf-21de50680129")
+		)
+		(pin "1"
+			(uuid "6099c421-2635-4ff4-b558-b9ff75442ee0")
+		)
+		(pin "4"
+			(uuid "012b059e-5175-416d-8478-193bdaa2a394")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 261.62 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c4f17ae-ba23-4fb1-83f6-963a5def0a03")
+		(property "Reference" "D69"
+			(at 270.764 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 271.018 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 264.16 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 261.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d9011fe-16a1-42cc-90d4-e254c8d690e9")
+		)
+		(pin "2"
+			(uuid "4f049be0-9f2d-43cb-81d0-f02789b80245")
+		)
+		(pin "1"
+			(uuid "5dc55446-adc6-4b84-b8e0-e288e8827003")
+		)
+		(pin "4"
+			(uuid "86ce8758-d773-4cf9-9428-1df4b867d4be")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 90.17 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d2b0104-6901-4539-8151-d84280fac85b")
+		(property "Reference" "D18"
+			(at 99.314 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.568 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10e422e7-c311-47c7-b066-6dc28c956f38")
+		)
+		(pin "2"
+			(uuid "e0acf3f5-40c5-4ccf-b0fe-5bceaf3e5fd3")
+		)
+		(pin "1"
+			(uuid "b6a39ba7-e88b-4e17-b3d9-440f2b63910a")
+		)
+		(pin "4"
+			(uuid "7b6d0ded-d5c5-4085-b639-e192f8e4dbae")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 223.52 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df78f77-fe3d-49dd-a6bc-ff6f6e8a77ef")
+		(property "Reference" "D81"
+			(at 232.664 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 232.918 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d73b8ec-b03d-438e-9b33-b92a7bdede7d")
+		)
+		(pin "2"
+			(uuid "08377e16-48e6-4f9f-9484-c4d28022f8bc")
+		)
+		(pin "1"
+			(uuid "df2dcf97-4ab3-42de-8eab-1b5c4aa1282c")
+		)
+		(pin "4"
+			(uuid "7ff1d16f-65a4-4ba9-9677-b869c75b109f")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 278.13 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e277ff8-a3b9-4a30-b837-3ba34002a02e")
+		(property "Reference" "D14"
+			(at 287.274 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 287.528 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 279.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 280.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 278.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a957628d-9e3f-4597-a76e-69d634cbfb64")
+		)
+		(pin "2"
+			(uuid "c410b61e-4ba2-45c1-949f-cecf332d17ed")
+		)
+		(pin "1"
+			(uuid "adab03ef-c4e9-43ad-9a71-17c96684c5f4")
+		)
+		(pin "4"
+			(uuid "e64b103a-94b1-484f-ab37-2a4917302aae")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 50.8 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6525f8bf-6a42-4053-aefd-11b831a53667")
+		(property "Reference" "D2"
+			(at 59.944 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 60.198 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 53.34 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dc193215-a309-4ec2-8396-993e8a1c3727")
+		)
+		(pin "2"
+			(uuid "f23bf06a-9f31-432e-83cd-8edb9df4c282")
+		)
+		(pin "1"
+			(uuid "56861cba-da97-4574-b4e0-e35ebacb6356")
+		)
+		(pin "4"
+			(uuid "0ca720c1-31ae-4001-877c-a862f93dbdd4")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 52.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67f3e306-3639-4d43-8b6d-0b57898e2551")
+		(property "Reference" "D16"
+			(at 61.214 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 61.468 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 54.61 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34afed8c-8ea6-4b00-b6f6-9c9562d52387")
+		)
+		(pin "2"
+			(uuid "18d63170-6c7f-471c-9e7f-61d0b672d10c")
+		)
+		(pin "1"
+			(uuid "437c0f49-9778-4c46-9984-4546ce9e18fc")
+		)
+		(pin "4"
+			(uuid "732ef866-6cd8-4561-9253-a401c7a84b0e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 166.37 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa62b01-d4b2-4cad-8335-538c3ece15a7")
+		(property "Reference" "D22"
+			(at 175.514 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 175.768 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 168.91 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7782875b-7cc9-46cc-9650-28ce26a2dca2")
+		)
+		(pin "2"
+			(uuid "4ae87808-ae7d-410c-8d1c-164838397f2a")
+		)
+		(pin "1"
+			(uuid "fb7edcf5-9e27-498b-b00b-fdd5a0dab1a2")
+		)
+		(pin "4"
+			(uuid "bc3d1a8f-ea55-4aac-89a4-9c397aec232e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fddda35-e592-4e26-98da-1a2c8c0f53d1")
+		(property "Reference" "D49"
+			(at 156.464 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3c21e7e1-a742-43ac-97f7-dc5e38f0e704")
+		)
+		(pin "2"
+			(uuid "2b367c53-cdda-4700-8c20-91646dccc47f")
+		)
+		(pin "1"
+			(uuid "4df8882d-45ee-4308-8987-41f57a465c0d")
+		)
+		(pin "4"
+			(uuid "a34cb759-cf74-4c3a-ac0a-fa07ee550976")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 279.4 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72d161eb-f3a2-4951-a965-26584558ea1d")
+		(property "Reference" "D56"
+			(at 288.544 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 288.798 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 280.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 281.94 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 279.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7740070a-d956-4747-b9c5-4f1cc329c1cf")
+		)
+		(pin "2"
+			(uuid "3c1207c6-11f6-4e8a-b119-485204a56c1f")
+		)
+		(pin "1"
+			(uuid "2f6c44ec-1716-4877-8230-db686e5b62d0")
+		)
+		(pin "4"
+			(uuid "71d78707-57e2-4aa2-a49b-853ff8be64a3")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 90.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f3f8d7-ebc3-4019-85d4-aefff95c9f74")
+		(property "Reference" "D32"
+			(at 99.314 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.568 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82a94c15-2c66-4596-bd18-c170a4799d78")
+		)
+		(pin "2"
+			(uuid "14d3d0fe-af61-4920-a0b0-36a7fc2fe757")
+		)
+		(pin "1"
+			(uuid "f9b3d393-bc23-43bc-a3ec-62a5e93582b2")
+		)
+		(pin "4"
+			(uuid "d7a65399-c3b4-4f33-9207-198c214096ee")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81bcc823-72b6-4544-bb34-c43c35a8b7b7")
+		(property "Reference" "D35"
+			(at 156.464 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24c24001-59a2-40fe-82ce-98918bc6d184")
+		)
+		(pin "2"
+			(uuid "c968c3d6-6033-4635-8377-68c90d54ed11")
+		)
+		(pin "1"
+			(uuid "1d5d7011-228d-44c4-9652-30c7596983ce")
+		)
+		(pin "4"
+			(uuid "8a834dfe-a3ef-40fa-b0f9-9fcfa562a7ac")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 184.15 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b7c1a41-33e4-4462-b2a8-82c31cf17005")
+		(property "Reference" "D9"
+			(at 193.294 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 193.548 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 186.69 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c580e4f-3c4b-4d2c-812b-2cfd901fd911")
+		)
+		(pin "2"
+			(uuid "789ce6a2-d957-474b-9eec-9a82fe33fdd0")
+		)
+		(pin "1"
+			(uuid "6a8420f3-be42-45ca-b192-fefa0cc44914")
+		)
+		(pin "4"
+			(uuid "eec30817-f673-4e4d-a385-e1540ec6dfbf")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 109.22 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a512c7-d2a8-4843-b8a7-9aecd84a61e4")
+		(property "Reference" "D47"
+			(at 118.364 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 118.618 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 111.76 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4511d155-0e69-43f9-999e-b31c3aee0576")
+		)
+		(pin "2"
+			(uuid "bdf19419-9805-43be-97e0-db3d893e72d1")
+		)
+		(pin "1"
+			(uuid "4a195981-c072-40db-b9f5-91c72d82400e")
+		)
+		(pin "4"
+			(uuid "a2503a31-85c6-4482-94f4-8993635171b0")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 261.62 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97eb5eae-c725-4a8e-acc7-763c480d3a2d")
+		(property "Reference" "D55"
+			(at 270.764 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 271.018 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 262.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 264.16 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "491be062-ef48-4f59-8f5c-a67b95e09e88")
+		)
+		(pin "2"
+			(uuid "8c1ad5af-41ed-45ed-823b-7a6edf3ea923")
+		)
+		(pin "1"
+			(uuid "f7dd4e31-1977-4640-9f63-6636723ec6f6")
+		)
+		(pin "4"
+			(uuid "1ffa9ee9-7d0a-4628-91f4-6a4110f3166e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 52.07 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98f13d9e-b935-42c3-84ff-7a40aab65ebb")
+		(property "Reference" "D58"
+			(at 61.214 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 61.468 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 54.61 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "680a93ae-381d-4756-bc08-d3a4f79bae35")
+		)
+		(pin "2"
+			(uuid "c6d5b4ee-3498-49ef-9a3a-767c5da16e6d")
+		)
+		(pin "1"
+			(uuid "dc196163-c58a-46b8-9e4d-bbd9b2294e13")
+		)
+		(pin "4"
+			(uuid "e881be84-cee9-41a0-8132-dd5e1c079916")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 166.37 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9baa4c53-5d1e-4f47-a42c-4ce78cffea79")
+		(property "Reference" "D78"
+			(at 175.514 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 175.768 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 168.91 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4120a4b-dd02-407e-b7d9-9a2d3b92873b")
+		)
+		(pin "2"
+			(uuid "119c6190-1e81-46af-9b7c-41326aac8385")
+		)
+		(pin "1"
+			(uuid "e2f50041-c06e-4ca2-aeeb-b693855d6781")
+		)
+		(pin "4"
+			(uuid "92ca0e39-5600-413a-b76c-bb90e8eab5d6")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 128.27 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d4e5431-9918-42bd-80ed-74cfc8cd1318")
+		(property "Reference" "D76"
+			(at 137.414 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.668 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 130.81 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "67e97b43-aa76-4556-9130-b65fcd23439c")
+		)
+		(pin "2"
+			(uuid "04cda39d-c19f-47db-9436-4b98d5902a68")
+		)
+		(pin "1"
+			(uuid "39893406-5104-4221-a9b1-12f3d08723ae")
+		)
+		(pin "4"
+			(uuid "f35afb1c-e5fb-4c33-a10e-f20e421fc620")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 204.47 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a029c49a-f856-4327-b4e4-aa7c68f6eb82")
+		(property "Reference" "D52"
+			(at 213.614 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 207.01 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d2309e2-dcd2-44bb-b200-8342893785b1")
+		)
+		(pin "2"
+			(uuid "9535c3aa-796e-4800-95dc-89230f10b3cf")
+		)
+		(pin "1"
+			(uuid "d847f142-e24f-419b-b843-0334536d913b")
+		)
+		(pin "4"
+			(uuid "70b64da5-0cb1-43fd-a9ad-5b1e84cd1f3d")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 223.52 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0bba6ee-358f-484c-a550-7b28215da331")
+		(property "Reference" "D25"
+			(at 232.664 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 232.918 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8f72c7dd-a864-4869-bcbf-dde9b6f44d77")
+		)
+		(pin "2"
+			(uuid "22ac86dc-cf7b-4427-bb3d-94136b3cbc42")
+		)
+		(pin "1"
+			(uuid "6ca630f3-3eb8-4ffa-b87c-4fdc00af5eed")
+		)
+		(pin "4"
+			(uuid "e2a4a9ab-69bd-4887-8e30-c794f831cffa")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 127 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c648eb-130a-4ba3-9505-0cb1f37c1bd6")
+		(property "Reference" "D6"
+			(at 136.144 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 136.398 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 129.54 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a8e062d2-6430-47f9-8b52-36a85b5d3733")
+		)
+		(pin "2"
+			(uuid "7ad55a10-d68d-48db-a4ac-a357fe973774")
+		)
+		(pin "1"
+			(uuid "a7f1772f-e382-4057-9b5e-cac0be7ebee7")
+		)
+		(pin "4"
+			(uuid "44850f8b-3002-480c-ac0e-3a7f09742d9a")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 128.27 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1f18a36-9c82-4f8e-a455-26f0938411bc")
+		(property "Reference" "D62"
+			(at 137.414 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.668 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 130.81 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c49e617e-15e7-485f-a5c0-f64e37442d13")
+		)
+		(pin "2"
+			(uuid "1845888d-ab70-468c-adfe-4bf0c1ae4d5d")
+		)
+		(pin "1"
+			(uuid "da8d0f4b-1b44-4e7c-86cd-dfd9a0978b28")
+		)
+		(pin "4"
+			(uuid "f577891f-3221-40dc-bb10-bf25ea2f44f0")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b63d39-8113-4327-9814-c35b1fdda518")
+		(property "Reference" "D21"
+			(at 156.464 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6996017d-faae-49f9-be6a-e01f726e396b")
+		)
+		(pin "2"
+			(uuid "d1c1010c-3c0a-46bb-b9d2-51681d307344")
+		)
+		(pin "1"
+			(uuid "da4236f4-ce7e-4eb3-831e-232b1d67f8b3")
+		)
+		(pin "4"
+			(uuid "0233d187-cff8-4c7c-88c3-70fe4c8cc34f")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 109.22 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a728ec42-8ad1-4cd3-9296-215d04979edc")
+		(property "Reference" "D33"
+			(at 118.364 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 118.618 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 111.76 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "74d13e7c-6f05-4ef8-a6f8-eed1b54c36aa")
+		)
+		(pin "2"
+			(uuid "9fdd131e-3be7-49bb-9ce3-dde821af809f")
+		)
+		(pin "1"
+			(uuid "d84b74ea-8367-4178-b78a-6177ebee4be4")
+		)
+		(pin "4"
+			(uuid "d9a60534-f860-4c8d-a25e-1309764789ae")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 90.17 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aefe1faa-b419-4eba-a12c-205909e371ec")
+		(property "Reference" "D74"
+			(at 99.314 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.568 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 92.71 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "470b1fa0-9ef7-41ff-ac55-e29126ac0ec5")
+		)
+		(pin "2"
+			(uuid "553eed02-3962-4d08-8434-f16098c3b4c0")
+		)
+		(pin "1"
+			(uuid "5b8cdcea-f6df-44a8-973e-ea3ef626919a")
+		)
+		(pin "4"
+			(uuid "577d4a3a-c235-48de-ade1-391c29317935")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 166.37 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b75e43b0-fc06-4a5a-8b90-68bcb325190c")
+		(property "Reference" "D50"
+			(at 175.514 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 175.768 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 168.91 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7fd3058e-63cb-42af-9afc-2a48270cfa81")
+		)
+		(pin "2"
+			(uuid "07e3a547-9f9c-4011-b9b1-262b73ccd03c")
+		)
+		(pin "1"
+			(uuid "606850e2-fa32-45a3-beaa-dbc9a3f80fa1")
+		)
+		(pin "4"
+			(uuid "2d9ef7ae-20e0-4fad-ab78-74f1bb0d8d31")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 128.27 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb55a109-e622-4db2-a33a-b2700b9a9061")
+		(property "Reference" "D48"
+			(at 137.414 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.668 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 130.81 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3a9e939d-429b-47a9-a4ac-334509bf425c")
+		)
+		(pin "2"
+			(uuid "8deef4a8-b0db-4b35-965b-3a7c2da6133b")
+		)
+		(pin "1"
+			(uuid "fcbcea8d-cdf2-4782-b0d0-5bdfff2005cb")
+		)
+		(pin "4"
+			(uuid "1c551d97-3745-4f9f-b1dc-716fb59594f8")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 242.57 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd8939c0-f3d3-40a0-b876-1bddd85efb69")
+		(property "Reference" "D26"
+			(at 251.714 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 251.968 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 245.11 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa95b583-79f9-465e-9625-a045bb8029ff")
+		)
+		(pin "2"
+			(uuid "86b715b5-9567-4503-a0ee-f15c527a2943")
+		)
+		(pin "1"
+			(uuid "3b06ea9c-4fda-4f8b-b561-fb3e32fd3ae6")
+		)
+		(pin "4"
+			(uuid "7bc038c0-68ce-4f22-bbd7-30b00837fdb8")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 69.85 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf0c4925-ab11-4141-bfd4-c7c4332e9377")
+		(property "Reference" "D3"
+			(at 78.994 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 79.248 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 72.39 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ef19359-c288-4ca1-beaf-9c7cc606cba9")
+		)
+		(pin "2"
+			(uuid "8be88e01-87dc-420f-a0e2-925dc8ecc9a2")
+		)
+		(pin "1"
+			(uuid "776f42ad-bc9a-4e96-bd60-54e8ae2c7c0d")
+		)
+		(pin "4"
+			(uuid "c30ff0c8-4885-4bb8-86fe-416cf7ad8dc2")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.12 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c027e3ff-69ed-487c-80dc-5e4b19d13c52")
+		(property "Reference" "D73"
+			(at 80.264 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 80.518 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 73.66 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94cb534a-8488-4a96-ac87-67e5b5b1a2da")
+		)
+		(pin "2"
+			(uuid "542f68a0-59be-4386-8c2e-047f38de7fd6")
+		)
+		(pin "1"
+			(uuid "d2d6c463-c2f3-4fe1-a5d2-53c74ab7408d")
+		)
+		(pin "4"
+			(uuid "1e6bb0f7-ca37-4ef8-9dea-76be688e5b9c")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 260.35 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2eebb3e-607a-4903-94a1-fd1d00d67148")
+		(property "Reference" "D13"
+			(at 269.494 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 269.748 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 262.89 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 260.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8820ec27-cd33-4590-91d9-f78e0788184c")
+		)
+		(pin "2"
+			(uuid "412d3461-f1f1-474b-8711-e7985d392873")
+		)
+		(pin "1"
+			(uuid "5e8939e9-0920-4c1c-9abe-5fe5d97c188a")
+		)
+		(pin "4"
+			(uuid "3d3335c1-cb02-49f1-b1f1-e0ec8c6b8a39")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 279.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c330f925-cd34-4abd-9dcf-ddd40f43f2eb")
+		(property "Reference" "D84"
+			(at 288.544 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 288.798 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 281.94 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 279.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1258315b-c457-4e72-99a4-abd904769f55")
+		)
+		(pin "2"
+			(uuid "16742286-c209-40d3-b8fe-e1bfb5d65cf7")
+		)
+		(pin "1"
+			(uuid "501f989b-b8ab-4b09-966b-c9c529888e8f")
+		)
+		(pin "4"
+			(uuid "c5c805b7-6640-4723-8ae3-5442f398d90e")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cad5a5cd-a660-49d8-9c11-5fbc5cd24a82")
+		(property "Reference" "D63"
+			(at 156.464 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "74e7fbbc-c70f-4020-bc1d-1a7d6705657d")
+		)
+		(pin "2"
+			(uuid "d3b157a4-66ae-4701-ba14-f1309fa0f06b")
+		)
+		(pin "1"
+			(uuid "a09c6170-09de-4d1c-9da1-9a8d507cc544")
+		)
+		(pin "4"
+			(uuid "91665861-8700-4b60-a443-9526b393f086")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 204.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb45d5f-952b-4d0d-9e18-c5bd6a332df8")
+		(property "Reference" "D38"
+			(at 213.614 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 207.01 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14d1fddb-c9d8-4267-8c21-a5921dcb85cd")
+		)
+		(pin "2"
+			(uuid "f2567d60-1cd2-4648-b660-3638862fb173")
+		)
+		(pin "1"
+			(uuid "6785a49d-dd3b-4bf5-990d-abb9d99a5944")
+		)
+		(pin "4"
+			(uuid "5266fb4d-fc16-4ef9-bc08-3cf4236a5829")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.12 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9cf272a-c021-4a6b-a732-186b50ecb742")
+		(property "Reference" "D17"
+			(at 80.264 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 80.518 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 73.66 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cdc29278-92a5-47a8-a7c5-f9dd4b287f39")
+		)
+		(pin "2"
+			(uuid "0a759a55-b687-49d5-9197-b2e6c4d032f6")
+		)
+		(pin "1"
+			(uuid "011445c4-62ab-495c-8334-f2a5bb193c9f")
+		)
+		(pin "4"
+			(uuid "20b5a27d-d257-4c14-a917-25503e395d78")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 166.37 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb71916-2f79-4a4f-8651-8d768813db82")
+		(property "Reference" "D64"
+			(at 175.514 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 175.768 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 168.91 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea8eb3bc-cec3-4dd6-80b5-5a18746edb77")
+		)
+		(pin "2"
+			(uuid "3d5bd2d8-9851-4685-a575-815d110e5515")
+		)
+		(pin "1"
+			(uuid "2b6f6763-81b2-401c-a69c-a91d3f5defc6")
+		)
+		(pin "4"
+			(uuid "1528272b-be2e-4379-93c9-27ace0eafd56")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 279.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd1e68f6-c6a0-4d86-ad2a-ad57a3b069a0")
+		(property "Reference" "D70"
+			(at 288.544 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 288.798 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 280.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 281.94 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 279.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "75d57950-d5fd-432d-9f22-242bad770c5c")
+		)
+		(pin "2"
+			(uuid "318df699-a393-4b73-a73e-0d397f12032b")
+		)
+		(pin "1"
+			(uuid "890d5886-a3b9-4254-ac07-967ff8114299")
+		)
+		(pin "4"
+			(uuid "cbcb4b4d-2e07-4d47-aeb5-36d1139bf00c")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 109.22 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0e04cfb-b3ac-4555-937d-3cfb6551a741")
+		(property "Reference" "D61"
+			(at 118.364 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 118.618 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 111.76 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ed6e32b-68e5-4c17-919f-850347133925")
+		)
+		(pin "2"
+			(uuid "348ebf1a-2842-47c6-9de6-b27d4cd5af3f")
+		)
+		(pin "1"
+			(uuid "7ac609c2-f45c-40e9-b821-05711f031fd3")
+		)
+		(pin "4"
+			(uuid "1dc7596f-4668-4eff-a04d-fc374bafd9a4")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 52.07 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e27b9a14-1030-45a3-992c-ee807eb667f3")
+		(property "Reference" "D44"
+			(at 61.214 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 61.468 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 54.61 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97f070f2-8854-48f1-ab29-46c89b0c19d6")
+		)
+		(pin "2"
+			(uuid "1e3b3143-f104-451b-a9e9-7a81a5b17b2b")
+		)
+		(pin "1"
+			(uuid "741e85e5-5ef6-4986-a57b-fbbc6f49e00d")
+		)
+		(pin "4"
+			(uuid "c3a2e233-601d-4a0d-85fe-e14b14c59a7c")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 107.95 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2bce620-b829-42f4-8e87-dc74b686b3c5")
+		(property "Reference" "D5"
+			(at 117.094 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 117.348 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 110.49 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d18e4491-fae5-49f0-a5bf-9bdf77ef6db7")
+		)
+		(pin "2"
+			(uuid "5ac98a74-050f-4deb-9cdf-b263f2c82af3")
+		)
+		(pin "1"
+			(uuid "95287adc-810c-45eb-b40b-e265dfa9e362")
+		)
+		(pin "4"
+			(uuid "04a79f4d-db3b-4098-a631-e049f2481e94")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 33.02 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30945f0-21c7-4caf-986d-9be391ae6eb0")
+		(property "Reference" "D43"
+			(at 42.164 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 42.418 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 35.56 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "128f63c5-e5e5-44ee-9ea9-684755eb44b5")
+		)
+		(pin "2"
+			(uuid "ae45eed6-37eb-4254-be5c-3983b8d55b2c")
+		)
+		(pin "1"
+			(uuid "050ab008-1e33-458a-9420-5fb77003b2f3")
+		)
+		(pin "4"
+			(uuid "8e5139d6-a969-4d88-93a9-d27883e58c56")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 52.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6fa8452-8358-4b5b-9e44-d9ed849756e9")
+		(property "Reference" "D30"
+			(at 61.214 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 61.468 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 54.61 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e2f6588-7e64-4e69-9357-6a0e6005d4a1")
+		)
+		(pin "2"
+			(uuid "f9ff1b24-f7ce-4277-997a-5edfe01c48be")
+		)
+		(pin "1"
+			(uuid "ed8effd5-67ac-47be-9126-2519fb889556")
+		)
+		(pin "4"
+			(uuid "f96d5c5c-160f-46df-86ed-e8d0118ed307")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 33.02 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e772de12-d8bd-49c4-9735-bd1108c065b2")
+		(property "Reference" "D15"
+			(at 42.164 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 42.418 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 35.56 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51662daa-0563-49d7-9a46-015dc382b0a4")
+		)
+		(pin "2"
+			(uuid "e2feb0a2-fefb-40be-8513-ab847a15a542")
+		)
+		(pin "1"
+			(uuid "e21a666f-394f-4542-87a6-93413d0fef78")
+		)
+		(pin "4"
+			(uuid "0343bbe7-88eb-4962-b696-d5c37a5e1a2d")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 185.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea7c4d5f-b3ff-4ba3-8c94-e8af4c5a617d")
+		(property "Reference" "D37"
+			(at 194.564 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 194.818 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 187.96 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1dbcf556-8d7c-44d5-a732-26446dfdc55d")
+		)
+		(pin "2"
+			(uuid "ee63a526-be7b-4cc7-bad2-e2322b768885")
+		)
+		(pin "1"
+			(uuid "2b225b37-d92c-48a5-9f22-6bf1250830f1")
+		)
+		(pin "4"
+			(uuid "db082ebf-e95e-4b3e-8cad-17b3cd340964")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 185.42 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb926c5c-2c1a-4994-b1d1-2b8df120bad1")
+		(property "Reference" "D51"
+			(at 194.564 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 194.818 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 187.96 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6a34f547-5726-4ce1-a159-854a257b8ff9")
+		)
+		(pin "2"
+			(uuid "a3659c45-2af5-4f9d-9af8-bca96c794c25")
+		)
+		(pin "1"
+			(uuid "e5f41905-2067-46b9-9997-a069fc5095d7")
+		)
+		(pin "4"
+			(uuid "f2a085d9-9610-4fd4-a27b-a62fa6854ab5")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 242.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec3df53c-d1c1-426f-b89f-f9f4ef3bd7be")
+		(property "Reference" "D40"
+			(at 251.714 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 251.968 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 245.11 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec36650c-2109-4763-84ba-fdcdcf7e9237")
+		)
+		(pin "2"
+			(uuid "145eaa04-e2b1-433d-9ec1-5741ad5d52a6")
+		)
+		(pin "1"
+			(uuid "239f3a02-6b5d-48b6-87d6-e0b32539b002")
+		)
+		(pin "4"
+			(uuid "acf3132e-5763-4a4b-a895-1a50de3b546c")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed7668fa-ba21-4ef0-a407-7cb97ddb5dc8")
+		(property "Reference" "D77"
+			(at 156.464 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 148.59 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bc05a193-1286-46b2-8bfb-746105aae5a1")
+		)
+		(pin "2"
+			(uuid "c7c7e316-993b-4a4b-a3f7-1cf0e46f02b1")
+		)
+		(pin "1"
+			(uuid "306b1ea2-0441-44f3-bafd-158783884b26")
+		)
+		(pin "4"
+			(uuid "26528449-ee64-47e1-bae4-321cb0c7ad1b")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 52.07 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f33e27dc-ff3b-4ab1-b5aa-c5859962427b")
+		(property "Reference" "D72"
+			(at 61.214 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 61.468 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 54.61 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 52.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "961bf41c-9f49-4050-9bdf-eea16df6a901")
+		)
+		(pin "2"
+			(uuid "3c131366-ab39-4182-af40-b5e3c06f4e4e")
+		)
+		(pin "1"
+			(uuid "8c3a0d28-cdf4-4a8f-b255-9843198a709d")
+		)
+		(pin "4"
+			(uuid "9ec19304-0135-4830-bed5-57d76af96272")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 146.05 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c53acd-e552-4584-88f8-66b68948261b")
+		(property "Reference" "D7"
+			(at 155.194 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 155.448 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 147.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 148.59 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "483cfd81-bd70-43e4-8491-181e3ba1430f")
+		)
+		(pin "2"
+			(uuid "4161338b-eb22-4b89-8d99-c8b30da3b78e")
+		)
+		(pin "1"
+			(uuid "11a7921d-6949-431d-af21-fb0cd7becc86")
+		)
+		(pin "4"
+			(uuid "d8260be3-413e-411a-a21c-52761a6554a1")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fabab0dd-aa1b-4d6c-87ca-4165dcf147b3")
+		(property "Reference" "D31"
+			(at 80.264 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 80.518 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 73.66 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eaefb3b4-1a54-46af-a4f7-faf2f0e2293c")
+		)
+		(pin "2"
+			(uuid "ebf0cccc-29a7-467c-a71d-acc5651cc3ce")
+		)
+		(pin "1"
+			(uuid "93fe6dba-7e93-4fe2-a425-0aaf7108b8cb")
+		)
+		(pin "4"
+			(uuid "f341422a-7737-4c0d-9824-01b50dc812e6")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 185.42 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbcf09f9-770f-4ba1-834d-81faf0f40b74")
+		(property "Reference" "D23"
+			(at 194.564 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 194.818 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 187.96 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee63f523-9ed8-4bd3-a95e-524cf0d2952f")
+		)
+		(pin "2"
+			(uuid "d4ced4da-87e0-4134-9eeb-a28fbc8e8372")
+		)
+		(pin "1"
+			(uuid "3ac0b0ff-1df1-4e44-af21-269d5c38f676")
+		)
+		(pin "4"
+			(uuid "2123e0d0-2679-4e41-af61-23bfe6c81492")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 261.62 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc6ba6b5-03d9-4d63-a94a-47ef7cd3374c")
+		(property "Reference" "D27"
+			(at 270.764 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 271.018 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 262.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 264.16 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08698f65-19ae-4bc0-9abe-2f74bb02cb82")
+		)
+		(pin "2"
+			(uuid "999edd7e-cb88-4054-bd85-2bb465f1c188")
+		)
+		(pin "1"
+			(uuid "5cff479b-b713-4bd6-aa2f-ee2114aacb5d")
+		)
+		(pin "4"
+			(uuid "2ec29c3d-1613-40c0-9f3d-ffefb565cb1f")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 128.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff192563-bc41-438b-a08d-a53d04bb5e7b")
+		(property "Reference" "D34"
+			(at 137.414 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.668 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 130.81 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e856ee4a-b130-4c32-9776-ed2066548cec")
+		)
+		(pin "2"
+			(uuid "00f094de-e743-49e4-a394-03b7020bf320")
+		)
+		(pin "1"
+			(uuid "e1c8c725-d660-4998-9664-1d49180779f2")
+		)
+		(pin "4"
+			(uuid "2f5e1470-eea5-4c35-be63-5354a10ed8cd")
+		)
+		(instances
+			(project "reloj 2812"
+				(path "/e37efeb6-6d5d-43d8-884b-d5ed446dd847"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
